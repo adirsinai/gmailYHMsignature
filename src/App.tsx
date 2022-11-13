@@ -69,7 +69,7 @@ const initialState: State = {
   email: '',
   website: 'www.yhm.co.il',
   phone: '',
-  photo: Logo,
+  photo: 'Logo',
   withPhoto: false,
   copied: false,
 };

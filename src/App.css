@@ -7,15 +7,24 @@
   color: black;
 }
 
+.firstName {
+  font-weight: bold;
+}
+
 .vertical-line {
   width: 0;
   height: 100%;
   border-right: 1px solid grey;
-  margin-right: 9px;
+  margin-right: 22px;
   margin-left: 10px;
 }
 
 .main-image {
   width: 200px;
   height: 100px;
+}
+
+img {
+  width: 20px;
+  margin-right: 5px;
 }

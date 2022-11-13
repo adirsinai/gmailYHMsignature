@@ -9,26 +9,44 @@ const Signature = (props: PhotoSignatureProps) => {
           <td rowSpan={5}>
             <img
               className={'main-image'}
-              src={props.photo === 'no-photo' ? Logo : props.photo}
+              src='https://dev.yhm.co.il/wp-content/uploads/2022/11/Logo-removebg-preview.png'
               alt={''}
             />
           </td>
           <td rowSpan={5}>
             <div className={'vertical-line'} />
           </td>
-          <td>{props.fullName}</td>
+          <td className='firstName'>{props.fullName}</td>
         </tr>
         <tr>
-          <td colSpan={3}>{props.position}</td>
+          <td colSpan={5}>{props.position}</td>
         </tr>
         <tr>
-          <td colSpan={3}>Telephone: {props.phone}</td>
+          <td colSpan={5} className='text'>
+            <img
+              src='https://cdn-icons-png.flaticon.com/512/15/15874.png'
+              alt=''
+            />
+            {props.phone}
+          </td>
         </tr>
         <tr>
-          <td colSpan={3}>Email: {props.email}</td>
+          <td colSpan={5} className='text'>
+            <img
+              src='https://cdn-icons-png.flaticon.com/512/2099/2099199.png'
+              alt=''
+            />
+            {props.email}
+          </td>
         </tr>
         <tr>
-          <td colSpan={3}>Website: {props.website}</td>
+          <td colSpan={5} className='text'>
+            <img
+              src='https://cdn-icons-png.flaticon.com/512/2721/2721688.png'
+              alt=''
+            />
+            {props.website}
+          </td>
         </tr>
         <tr></tr>
       </tbody>
