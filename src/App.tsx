@@ -36,8 +36,8 @@ const useStyles = makeStyles((theme: Theme) =>
       display: 'block',
       marginLeft: 'auto',
       marginRight: 'auto',
-      width: '350px',
-      height: '150px',
+      width: '175px',
+      height: '75px',
     },
     centeredText: {
       textAlign: 'center',
