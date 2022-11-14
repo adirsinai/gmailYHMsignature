@@ -16,6 +16,7 @@ import { CheckOutlined, FileCopyOutlined } from '@material-ui/icons';
 import CircularProgressWithLabel from './CircularProgressWithLabel';
 import './App.css';
 
+const phoneRegex = '[0-9-]+';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -264,6 +265,8 @@ function App() {
                 label='email'
                 value={state.email}
                 name={'email'}
+                type='email'
+                autoComplete='email'
                 onChange={handleChange}
               />
               <TextField
@@ -271,7 +274,7 @@ function App() {
                 required
                 label='website'
                 value={state.website}
-                name={'email'}
+                name={'website'}
                 onChange={handleChange}
               />
               <TextField
@@ -280,6 +283,8 @@ function App() {
                 label='Telephone'
                 value={state.phone}
                 name={'phone'}
+                type='text'
+                placeholder='050-1234567'
                 onChange={handleChange}
               />
               <FormControlLabel
