@@ -6,23 +6,23 @@ const Signature = (props: PhotoSignatureProps) => {
     <table cellPadding={0} cellSpacing={0} className={'signature'}>
       <tbody>
         <tr>
-          <td rowSpan={5}>
+          <td rowSpan={0}>
             <img
               className={'main-image'}
               src='https://dev.yhm.co.il/wp-content/uploads/2022/11/Logo-removebg-preview.png'
               alt={''}
             />
           </td>
-          <td rowSpan={5}>
+          <td rowSpan={0}>
             <div className={'vertical-line'} />
           </td>
           <td className='firstName'>{props.fullName}</td>
         </tr>
         <tr>
-          <td colSpan={5}>{props.position}</td>
+          <td colSpan={0}>{props.position}</td>
         </tr>
         <tr>
-          <td colSpan={5} className='text'>
+          <td colSpan={0} className='text'>
             <img
               src='https://cdn-icons-png.flaticon.com/512/15/15874.png'
               alt=''
@@ -31,7 +31,7 @@ const Signature = (props: PhotoSignatureProps) => {
           </td>
         </tr>
         <tr>
-          <td colSpan={5} className='text'>
+          <td colSpan={0} className='text'>
             <img
               src='https://cdn-icons-png.flaticon.com/512/2099/2099199.png'
               alt=''
@@ -40,7 +40,7 @@ const Signature = (props: PhotoSignatureProps) => {
           </td>
         </tr>
         <tr>
-          <td colSpan={5} className='text'>
+          <td colSpan={0} className='text'>
             <img
               src='https://cdn-icons-png.flaticon.com/512/2721/2721688.png'
               alt=''
