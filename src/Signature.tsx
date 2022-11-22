@@ -9,7 +9,7 @@ const Signature = (props: PhotoSignatureProps) => {
           <td rowSpan={0}>
             <img
               className={'main-image'}
-              src='https://dev.yhm.co.il/wp-content/uploads/2022/11/Logo-removebg-preview.png'
+              src='https://dev.yhm.co.il/wp-content/uploads/2022/11/rsz_1yhm_logo.png'
               alt={''}
             />
           </td>
@@ -24,7 +24,7 @@ const Signature = (props: PhotoSignatureProps) => {
         <tr>
           <td colSpan={0} className='text'>
             <img
-              src='https://cdn-icons-png.flaticon.com/512/15/15874.png'
+              src='https://dev.yhm.co.il/wp-content/uploads/2022/11/rsz_15874.png'
               alt=''
             />
             {props.phone}
@@ -33,7 +33,7 @@ const Signature = (props: PhotoSignatureProps) => {
         <tr>
           <td colSpan={0} className='text'>
             <img
-              src='https://cdn-icons-png.flaticon.com/512/2099/2099199.png'
+              src='https://dev.yhm.co.il/wp-content/uploads/2022/11/rsz_2099199.png'
               alt=''
             />
             {props.email}
@@ -42,7 +42,7 @@ const Signature = (props: PhotoSignatureProps) => {
         <tr>
           <td colSpan={0} className='text'>
             <img
-              src='https://cdn-icons-png.flaticon.com/512/2721/2721688.png'
+              src='https://dev.yhm.co.il/wp-content/uploads/2022/11/rsz_2721688.png'
               alt=''
             />
             {props.website}
