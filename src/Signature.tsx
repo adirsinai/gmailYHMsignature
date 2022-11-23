@@ -27,7 +27,7 @@ const Signature = (props: PhotoSignatureProps) => {
               src='https://dev.yhm.co.il/wp-content/uploads/2022/11/rsz_15874.png'
               alt=''
             />
-            href={`tel://${props.phone}`}
+            <a href={`tel://${props.phone}`} >
           </td>
         </tr>
         <tr>
