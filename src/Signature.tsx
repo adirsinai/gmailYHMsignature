@@ -36,7 +36,7 @@ const Signature = (props: PhotoSignatureProps) => {
               src='https://dev.yhm.co.il/wp-content/uploads/2022/11/rsz_2099199.png'
               alt=''
             />
-            {props.email}
+            <a href={`mailto://${props.email}`}>{props.email}</a>
           </td>
         </tr>
         <tr>
@@ -45,7 +45,7 @@ const Signature = (props: PhotoSignatureProps) => {
               src='https://dev.yhm.co.il/wp-content/uploads/2022/11/rsz_2721688.png'
               alt=''
             />
-            {props.website}
+            <a href={`https://${props.website}`}>{props.website}</a>
           </td>
         </tr>
         <tr></tr>
